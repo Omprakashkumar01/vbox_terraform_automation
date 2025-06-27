@@ -32,10 +32,7 @@ This project provides a Bash script (`vm.sh`) to automate the following on a Win
 
 ### Step 1: Open PowerShell as Administrator
 
-```
-Start-Process powershell -Verb runAs
-```
-## Step 2: Run the script via Git Bash from Admin PowerShell:
+### Step 2: Run the script via Git Bash from Admin PowerShell:
 ```
 & "C:\Program Files\Git\bin\bash.exe" "C:\Path\To\vm.sh"
 ```
